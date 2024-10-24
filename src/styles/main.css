@@ -588,6 +588,10 @@ abbr[title] {
   }
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -745,6 +749,14 @@ abbr[title] {
 
 .text-center {
   text-align: center;
+}
+
+.font-pretendard {
+  font-family: "Pretendard Variable";
+}
+
+.font-suit {
+  font-family: "SUIT Variable";
 }
 
 .text-3xl {

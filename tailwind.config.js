@@ -4,8 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-        suit: ['"SUIT Variable"'],
-        pretendard: ['"Pretendard Variable"'],
+        "suit": ["SUIT Variable"],
+        "pretendard": ['"Pretendard Variable"'],
       },
 		},
 	},

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>온라인/오프라인 상태 디자인</title>
+    <link rel="icon" href="/src/assets/favicon/tailwind.svg" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+		<script type="module" src="/src/js/changeState.js"></script>
+  </head>
+  <body class="bg-slate-700 flex h-screen flex-col items-center justify-center gap-8 font-suit">
+		<!-- 하늘 -->
+    <div>
+      <button type="button" class="state-button state-online bg-[url(/src/assets/face/face3.jpg)] bg-no-repeat bg-center bg-cover size-20 rounded-full relative">
+        <!-- 버튼 배경이미지 /src/assets/face/face3.jpg -->
+        <span class="state-text absolute right-0 bottom-0 size-7 bg-Green-600 rounded-full border-2 border-white"><span class="sr-only">슬비 회원 온라인</span></span>
+      </button>
+      <hr class="my-5" />
+      <!-- 버튼 배경이미지 /src/assets/face/face5.jpg -->
+      <button type="button" class="state-button state-offline bg-[url(/src/assets/face/face5.jpg)] bg-no-repeat bg-center bg-cover size-20 rounded-full relative">
+        <span class="state-text absolute right-0 bottom-0 size-7 bg-Gray-600 rounded-full border-2 border-white"><span class="sr-only">선범 회원 오프라인</span></span>
+      </button>
+    </div>
+
+		<br>
+		<br>
+		<br>
+
+		<!-- 슬비쌤 -->
+		<div>
+      <button type="button" class="state-button state-online">
+        <!-- 버튼 배경이미지 /src/assets/face/face3.jpg -->
+        <span class="state-text"><span class="sr-only">슬비 회원 온라인</span></span>
+      </button>
+      <hr class="my-5" />
+      <!-- 버튼 배경이미지 /src/assets/face/face5.jpg -->
+      <button type="button" class="state-button state-offline">
+        <span class="state-text"><span class="sr-only">선범 회원 오프라인</span></span>
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>네이버 검색 바</title>
+    <link rel="icon" href="/src/assets/favicon/tailwind.svg" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body class="bg-slate-300 p-5 font-suit">
+		<!-- 하늘 -->
+    <div class="flex items-center bg-white border-2 border-green-500 rounded-full">
+      <h1 class="inline-block align-middle">
+        <a href="/">
+          <span class="sr-only">네이버</span>
+          <span aria-hidden="true" class="p-2 text-4xl font-bold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">N</span>
+        </a>
+      </h1>
+      <form action="/" method="get" class="contents">
+        <div class="">
+          <label for="input-1" class="sr-only">검색어</label>
+          <input class="" type="search" id="input-1" placeholder="검색어를 입력하세요" required />
+        </div>
+        <button type="submit" aria-label="검색" class="relative before:absolute before:size-6 before:bg-gradient-to-r before:from-green-400 before:to-green-600 before:rounded-full"></button>
+      </form>
+    </div>
+
+		<br>
+		<br>
+		<br>
+
+		<!-- 슬비쌤 -->
+		<div class="flex items-center gap-3 bg-white border p-3 pl-5 mx-auto my-10 border rounded-full focus-within:shadow-shadow/200 focus-within:border-tertiary-100 w-1/2 border-primary-100">
+      <h1>
+        <a href="/">
+          <span class="sr-only">네이버</span>
+          <span class="text-4xl font-black bg-gradient-to-b from-red-500 to-primary-500 text-transparent bg-clip-text" aria-hidden="true">N</span>
+        </a>
+      </h1>
+      <form class="contents" action="/" method="get">
+        <div class="flex-1">
+          <label for="input-1" class="sr-only">검색어</label>
+          <input class="w-full text-slate-800 focus:outline-none" type="search" id="input-1" placeholder="검색어를 입력하세요" required />
+        </div>
+        <button type="submit" aria-label="검색" class="rounded-full size-6 bg-gradient-to-b from-red-500 to-primary-500 relative before:absolute before:size-2 before:bg-white before:rounded-full before:top-1/2 before:left-1/2 before:translate before:-translate-x-1/2 before:-translate-y-1/2"></button>
+      </form>
+    </div>
+  </body>
+</html>

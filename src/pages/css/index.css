@@ -1099,6 +1099,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(203 203 203 / var(--tw-bg-opacity));
 }
+.bg-pink-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
+}
 .bg-\[url\(\/src\/assets\/face\/face3\.jpg\)\] {
   background-image: url(/src/assets/face/face3.jpg);
 }
@@ -1172,6 +1176,9 @@ video {
 }
 .p-8 {
   padding: 2rem;
+}
+.p-0 {
+  padding: 0px;
 }
 .px-2 {
   padding-left: 0.5rem;

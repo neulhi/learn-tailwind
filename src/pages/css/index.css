@@ -1226,6 +1226,10 @@ video {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
 }
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -1644,6 +1648,9 @@ video {
   .sm\:w-full {
     width: 100%;
   }
+  .sm\:w-auto {
+    width: auto;
+  }
   .sm\:max-w-none {
     max-width: none;
   }
@@ -1687,6 +1694,9 @@ video {
   }
   .sm\:gap-y-5 {
     row-gap: 1.25rem;
+  }
+  .sm\:border-0 {
+    border-width: 0px;
   }
   .sm\:border-none {
     border-style: none;

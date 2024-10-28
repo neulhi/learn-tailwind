@@ -698,6 +698,14 @@ video {
   width: 3rem;
   height: 3rem;
 }
+.size-4 {
+  width: 1rem;
+  height: 1rem;
+}
+.size-60 {
+  width: 15rem;
+  height: 15rem;
+}
 .h-20 {
   height: 5rem;
 }
@@ -721,6 +729,9 @@ video {
 }
 .h-svh {
   height: 100svh;
+}
+.h-60 {
+  height: 15rem;
 }
 .w-1\/2 {
   width: 50%;
@@ -749,6 +760,9 @@ video {
 .w-full {
   width: 100%;
 }
+.w-60 {
+  width: 15rem;
+}
 .min-w-\[320px\] {
   min-width: 320px;
 }
@@ -760,6 +774,9 @@ video {
 }
 .max-w-lg {
   max-width: 32rem;
+}
+.max-w-60 {
+  max-width: 15rem;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -814,6 +831,12 @@ video {
 }
 .grid-cols-\[repeat\(5\2c minmax\(232px\2c _1fr\)\)\] {
   grid-template-columns: repeat(5,minmax(232px, 1fr));
+}
+.grid-cols-\[repeat\(5\2c minmax\(1fr\)\)\] {
+  grid-template-columns: repeat(5,minmax(1fr));
+}
+.grid-cols-\[repeat\(5\2c minmax\(232px\)\)\] {
+  grid-template-columns: repeat(5,minmax(232px));
 }
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
@@ -914,6 +937,26 @@ video {
 .rounded-xl {
   border-radius: 0.75rem;
 }
+.rounded-r-md {
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+.rounded-r-lg {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.rounded-r-3xl {
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.rounded-r-2xl {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.rounded-r-xl {
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
 .border {
   border-width: 1px;
 }
@@ -956,6 +999,10 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+.border-kream-gray {
+  --tw-border-opacity: 1;
+  border-color: rgb(203 203 203 / var(--tw-border-opacity));
 }
 .border-t-slate-500 {
   --tw-border-opacity: 1;
@@ -1047,6 +1094,10 @@ video {
 .bg-kream-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-kream-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 203 203 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\/src\/assets\/face\/face3\.jpg\)\] {
   background-image: url(/src/assets/face/face3.jpg);
@@ -1181,6 +1232,9 @@ video {
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .align-middle {
   vertical-align: middle;

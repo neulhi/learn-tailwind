@@ -1036,6 +1036,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-kream-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 169 90 / var(--tw-bg-opacity));
+}
 .bg-\[url\(\/src\/assets\/face\/face3\.jpg\)\] {
   background-image: url(/src/assets/face/face3.jpg);
 }
@@ -1289,6 +1293,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
 .no-underline {
   text-decoration-line: none;
 }
@@ -1449,12 +1457,32 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(227 144 66 / var(--tw-bg-opacity));
 }
+.hover\:bg-kream-green:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 169 90 / var(--tw-bg-opacity));
+}
 .hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.hover\:text-kream-red:hover {
+  --tw-text-opacity: 1;
+  color: rgb(176 44 32 / var(--tw-text-opacity));
+}
+.hover\:text-kream-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .focus\:rounded-sm:focus {
   border-radius: 0.25rem;
+}
+.focus\:bg-kream-green:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 169 90 / var(--tw-bg-opacity));
+}
+.focus\:text-kream-white:focus {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
@@ -1757,6 +1785,10 @@ video {
   }
   .lg\:text-base {
     font-size: 1rem;
+  }
+  .lg\:text-p-md {
+    font-size: calc(var(--text-sm) * 1.333);
+    line-height: 1.6;
   }
 }
 @media (min-width: 1440px) {

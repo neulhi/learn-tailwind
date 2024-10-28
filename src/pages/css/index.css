@@ -862,11 +862,17 @@ video {
 .items-center {
   align-items: center;
 }
+.justify-end {
+  justify-content: flex-end;
+}
 .justify-center {
   justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-items-end {
+  justify-items: end;
 }
 .justify-items-center {
   justify-items: center;
@@ -1639,6 +1645,9 @@ video {
   .sm\:inline-flex {
     display: inline-flex;
   }
+  .sm\:contents {
+    display: contents;
+  }
   .sm\:hidden {
     display: none;
   }
@@ -1685,8 +1694,14 @@ video {
   .sm\:justify-end {
     justify-content: flex-end;
   }
+  .sm\:justify-items-end {
+    justify-items: end;
+  }
   .sm\:gap-7 {
     gap: 1.75rem;
+  }
+  .sm\:gap-5 {
+    gap: 1.25rem;
   }
   .sm\:gap-x-\[140px\] {
     -moz-column-gap: 140px;
@@ -1694,6 +1709,11 @@ video {
   }
   .sm\:gap-y-5 {
     row-gap: 1.25rem;
+  }
+  .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
   .sm\:border-0 {
     border-width: 0px;
